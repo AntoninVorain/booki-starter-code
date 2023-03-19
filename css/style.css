@@ -95,7 +95,7 @@ footer a {
 
 .filtre .fa-solid {
   padding-right: 10px;
-  color: #0065fc;
+  color: var(--main-color);
 }
 
 body {
@@ -113,7 +113,7 @@ body {
 }
 
 p .fa-solid {
-  color: #0065fc;
+  color: var(--main-color);
   margin-right: 20px;
   margin-bottom: 50px;
 }
@@ -136,7 +136,7 @@ p .fa-solid {
 .div-search {
   /* background-color: red; */
   display: flex;
-  border: 10px solid black;
+  /* border: 10px solid black; */
   margin: 0 0 0 -40px;
   flex-direction: row;
   justify-content: flex-start;
@@ -144,12 +144,12 @@ p .fa-solid {
 }
 
 .btn-search {
-  background-color: #0065fc;
+  background-color: var(--main-color);
   color: white;
   border-radius: 0 10px 10px 0;
   border: 0;
   height: 55px;
-  margin: -40px 0 0 0 ;
+  /* margin: -10px 0 0 0 ; */
 }
 
 .tagline{
@@ -161,7 +161,7 @@ p .fa-solid {
   width: 50px;
   padding-left: 20px;
   /* padding-top: 13px; */
-  /* margin-top: 50px; */
+  margin-left: 40px;
   /* display: inline-block; */
   border: 1px solid black;
   color: black;
@@ -181,7 +181,7 @@ p .fa-solid {
   font-size: 49px;
   border: 0px solid black;
   color: white;
-  background-color: #0065fc;
+  background-color: var(--main-color);
   border-radius: 0 10px 10px 0;
 }
 
@@ -310,7 +310,7 @@ p .fa-solid {
 .populaires-cards .card-rating,
 .card-rating {
   margin-bottom: 5px;
-  color: #0065fc;
+  color: var(--main-color);
 }
 
 .hebergement-cards {
@@ -323,6 +323,10 @@ p .fa-solid {
 
 .hebergements h2 {
   margin-bottom: 50px;
+}
+
+.activites{
+  padding: 0 20px;
 }
 
 .activites-cards {
@@ -412,8 +416,8 @@ p .fa-solid {
   }
 
   nav li:hover {
-    border-top: 3px solid #0065fc;
-    color: #0065fc;
+    border-top: 3px solid var(--main-color);
+    color: var(--main-color);
   }
 }
 
@@ -429,8 +433,8 @@ p .fa-solid {
   }
 
   nav li:hover {
-    border-bottom: 3px solid #0065fc;
-    color: #0065fc;
+    border-bottom: 3px solid var(--main-color);
+    color: var(--main-color);
   }
 
   .filtres {
@@ -446,7 +450,14 @@ p .fa-solid {
   header {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    font-size: 25px;
   }
+
+  /* header li{
+    width: 50%;
+  } */
+
 
   nav {
     margin: auto;
@@ -455,15 +466,11 @@ p .fa-solid {
     margin-bottom: 50px;
   }
 
-  /* nav li:hover {
-    border-top: 3px solid #0065fc;
-    color: #0065fc;
-  } */
   .btn-search {
     display: none;
   }
   p .fa-solid {
-    color: #0065fc;
+    color: var(--main-color);
     margin-right: 20px;
     margin-bottom: 0px;
   }
