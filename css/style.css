@@ -566,6 +566,9 @@ footer a {
     background-color: white;
   }
 
+  h3 a{
+    padding-top: 10px;
+  }
   .activites-cards {
     flex-wrap: wrap;
     flex-direction: column;
